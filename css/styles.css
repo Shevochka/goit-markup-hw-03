@@ -84,7 +84,7 @@ body {
   color: var(--accent-color);
 }
 
-.header__link {
+.header-nav__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -99,8 +99,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.header-mail,
-.header-tel {
+.header-info__mail,
+.header-info__tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -112,10 +112,10 @@ body {
 .header-nav__link:focus {
   color: var(--accent-color);
 }
-.header__mail:hover,
-.header__tel:hover,
-.header__mail:focus,
-.header__tel:focus {
+.header-info__mail:hover,
+.header-info__tel:hover,
+.header-info__mail:focus,
+.header-info__tel:focus {
   color: var(--accent-color);
 }
 
