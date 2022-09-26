@@ -22,19 +22,23 @@
     <!-- Header -->
 
     <header class="header">
-        <div class="container">
-            <a href="./index.html" class="logo link">Web<span class="logo__header">Studio</span></a>
-            <nav>
-                <ul class="header-nav list ">
-                    <li><a class="header-nav__link link current" href="./index.html">Студія</a></li>
-                    <li><a class="header-nav__link link" href="./portfolio.html">Портфоліо</a></li>
-                    <li><a class="header-nav__link link" href="./index.html">Контакти</a></li>
+        <div class="container header-container">
+
+            <nav class="header-navigation">
+                <a href="./index.html" class="logo link">Web<span class="logo__header">Studio</span></a>
+                <ul class="header-list list ">
+                    <li><a class="header-list__link link current" href="./index.html">Студія</a></li>
+                    <li><a class="header-list__link link" href="./portfolio.html">Портфоліо</a></li>
+                    <li><a class="header-list__link link" href="./index.html">Контакти</a></li>
                 </ul>
             </nav>
-            <ul class="header-info list">
-                <li><a class="header-info__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="header-info__tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+            <div class="header-connect">
+                <ul class="header-info list">
+                    <li><a class="header-info__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="header-info__tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
+
         </div>
     </header>
     <main>
@@ -108,10 +112,11 @@
         <!-- Our Team -->
 
         <section class="team section">
+            <h2 class="team__title">Наша команда</h2>
             <div class="container">
-                <h2 class="team__title">Наша команда</h2>
+                
                 <ul class="staff-list list">
-                    <li>
+                    <li class="staff-list__item">
                         <img src="./images/img(2).jpg" alt="Ігор Дем'яненко" width="270" height="260" />
                         <div class="staff-list__content">
                             <h3 class="staff-list__name">Ігор Дем'яненко</h3>
@@ -119,7 +124,7 @@
                         </div>
 
                     </li>
-                    <li>
+                    <li class="staff-list__item">
                         <img src="./images/img(3).jpg" alt="Ольга Рєпіна" width="270" height="260" />
                         <div class="staff-list__content">
                             <h3 class="staff-list__name">Ольга Рєпіна</h3>
@@ -127,7 +132,7 @@
                         </div>
 
                     </li>
-                    <li>
+                    <li class="staff-list__item">
                         <img src="./images/img(4).jpg" alt="Микола Тарасов" width="270" height="260" />
                         <div class="staff-list__content">
                             <h3 class="staff-list__name">Микола Тарасов</h3>
@@ -135,7 +140,7 @@
                         </div>
 
                     </li>
-                    <li>
+                    <li class="staff-list__item">
                         <img src="./images/img(5).jpg" alt="Михайло Єрмаков" width="270" height="260" />
                         <div class="staff-list__content">
                             <h3 class="staff-list__name">Михайло Єрмаков</h3>
